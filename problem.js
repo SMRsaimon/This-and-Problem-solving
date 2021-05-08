@@ -1,4 +1,4 @@
-// Find the largest element of an array
+Find the largest element of an array
 
 const number =[12,3,5,6,99,5 ]
 function findLargestNumber(number) {
@@ -61,3 +61,33 @@ const reverceString=(str)=>{
    return  str.split("").reverse().join("")
 }
 console.log(reverceString("SMR saimon Khan "))
+
+
+// find factorial n number 
+
+const findFactorial=(fac)=>{
+  let factorial=1;
+  for (let i = 1; i <=fac; i++) {
+      
+
+       factorial=factorial*i      
+  }
+
+  return factorial
+}
+console.log(findFactorial(10))
+
+
+
+const factorialRecursive=(number)=>{
+        
+
+       if (number===0) {
+           return 1 
+           
+       }else{
+
+       return  number*factorialRecursive(number-1)
+       }
+}
+console.log(factorialRecursive(10))
