@@ -37,13 +37,8 @@ const number2=[1,1,1,1,1,1,1,2,2,2,2,2,2,2]
 console.log(findDuplicateNumber(number2))
 
 //  Count the number of words in a string
-
-
 const sentence="I    love    bangladesh. jnjnjkl  hjdkn"
 const wordsCounter=(spech)=>{
-
-
-
     let count=0
    for (let i = 0; i < spech.length; i++) {
        const element = spech[i];
@@ -59,3 +54,10 @@ const wordsCounter=(spech)=>{
 
 console.log(wordsCounter(sentence))
 
+// Reverse a string
+
+const reverceString=(str)=>{
+
+   return  str.split("").reverse().join("")
+}
+console.log(reverceString("SMR saimon Khan "))
